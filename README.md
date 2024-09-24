@@ -1,13 +1,11 @@
-# ⬆️ Google Cloud Platform (GCP) Associate Cloud Engineer (ACE) Practice Tests E ams Questions & Answers
+# ⬆️ Google Cloud Platform (GCP) Associate Cloud Engineer (ACE) Practice Tests Exams Questions & Answers
 
-
-
-### You significantly changed a comple  Deployment Manager template and want to confirm that the dependencies of all defined resources are properly met before committing it to the project. You want the most rapid feedback on your changes. What should you do?
+### You significantly changed a complex Deployment Manager template and want to confirm that the dependencies of all defined resources are properly met before committing it to the project. You want the most rapid feedback on your changes. What should you do?
 
 - [ ] Use granular logging statements within a Deployment Manager template authored in Python.
-- [ ] Monitor activity of the Deployment Manager e ecution on the Stackdriver Logging page of the GCP Console.
-- [ ] E ecute the Deployment Manager template against a separate project with the same configuration, and monitor for failures.
-- [ ] E ecute the Deployment Manager template using the C-preview option in the same project, and observe the state of interdependent resources.
+- [ ] Monitor activity of the Deployment Manager execution on the Stackdriver Logging page of the GCP Console.
+- [ ] Execute the Deployment Manager template against a separate project with the same configuration, and monitor for failures.
+- [ ] Execute the Deployment Manager template using the C-preview option in the same project, and observe the state of interdependent resources.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -22,12 +20,12 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You are analyzing Google Cloud Platform service costs from three separate projects. You want to use this information to create service cost estimates by service type, daily and monthly, for the ne t si  months using standard query synta . What should you do?
+### You are analyzing Google Cloud Platform service costs from three separate projects. You want to use this information to create service cost estimates by service type, daily and monthly, for the next six months using standard query syntax. What should you do?
 
-- [ ] E port your bill to a Cloud Storage bucket, and then import into Cloud Bigtable for analysis.
-- [ ] E port your bill to a Cloud Storage bucket, and then import into Google Sheets for analysis.
-- [ ] E port your transactions to a local file, and perform analysis with a desktop tool.
-- [ ] E port your bill to a BigQuery dataset, and then write time window-based SQL queries for analysis.
+- [ ] Export your bill to a Cloud Storage bucket, and then import into Cloud Bigtable for analysis.
+- [ ] Export your bill to a Cloud Storage bucket, and then import into Google Sheets for analysis.
+- [ ] Export your transactions to a local file, and perform analysis with a desktop tool.
+- [ ] Export your bill to a BigQuery dataset, and then write time window-based SQL queries for analysis.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -40,21 +38,21 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You have a website hosted on App Engine standard environment. You want 1% of your users to see a new test version of the website. You want to minimize comple ity.
+### You have a website hosted on App Engine standard environment. You want 1% of your users to see a new test version of the website. You want to minimize complexity.
 
 - [ ] Deploy the new version in the same application and use the –-migrate option.
 - [ ] Deploy the new version in the same application and use the –-splits option to give a weight of 99 to the current version and a weight of 1 to the new version.
-- [ ] Create a new App Engine application in the same project. Deploy the new version in that application. Use the App Engine library to pro y 1% of the requests to the new version.
+- [ ] Create a new App Engine application in the same project. Deploy the new version in that application. Use the App Engine library to proxy 1% of the requests to the new version.
 - [ ] Create a new App Engine application in the same project. Deploy the new version in that application. Configure your network load balancer to send 1% of the traffic to that new application.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Your organization is a financial company that needs to store audit log files for 3 years. Your organization has hundreds of Google Cloud projects. You need to implement a cost-effective approach for log file retention.
 
-- [ ] Create an e port to the sink that saves logs from Cloud Audit to BigQuery.
-- [ ] Create an e port to the sink that saves logs from Cloud Audit to a Coldline Storage bucket.
+- [ ] Create an export to the sink that saves logs from Cloud Audit to BigQuery.
+- [ ] Create an export to the sink that saves logs from Cloud Audit to a Coldline Storage bucket.
 - [ ] Write a custom script that uses logging API to copy the logs from Stackdriver logs to BigQuery.
-- [ ] E port these logs to Cloud Pub/Sub and write a Cloud Dataflow pipeline to store logs to Cloud SQL.
+- [ ] Export these logs to Cloud Pub/Sub and write a Cloud Dataflow pipeline to store logs to Cloud SQL.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -67,7 +65,7 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You want to run a single caching HTTP reverse pro y on GCP for a latency-sensitive website. This specific reverse pro y consumes almost no CPU. You want to have a 30-GB in-memory cache, and need an additional 2 GB of memory for the rest of the processes. You want to minimize cost. How should you run this reverse pro y?
+### You want to run a single caching HTTP reverse proxy on GCP for a latency-sensitive website. This specific reverse proxy consumes almost no CPU. You want to have a 30-GB in-memory cache, and need an additional 2 GB of memory for the rest of the processes. You want to minimize cost. How should you run this reverse proxy?
 
 - [ ] Create a Cloud Memorystore for Redis instance with 32-GB capacity.
 - [ ] Run it on Compute Engine, and choose a custom instance type with 6 vCPUs and 32 GB of memory.
@@ -94,12 +92,12 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You have an object in a Cloud Storage bucket that you want to share with an e ternal company. The object contains sensitive data. You want access to the content to be removed after four hours. The e ternal company does not have a Google account to which you can grant specific user-based access privileges. You want to use the most secure method that requires the fewest steps. What should you do?
+### You have an object in a Cloud Storage bucket that you want to share with an external company. The object contains sensitive data. You want access to the content to be removed after four hours. The external company does not have a Google account to which you can grant specific user-based access privileges. You want to use the most secure method that requires the fewest steps. What should you do?
 
-- [ ] Create a signed URL with a four-hour e piration and share the URL with the company.
+- [ ] Create a signed URL with a four-hour expiration and share the URL with the company.
 - [ ] Set object access to 'public' and use object lifecycle management to remove the object after four hours.
 - [ ] Configure the storage bucket as a static website and furnish the object's URL to the company. Delete the object from the storage bucket after four hours.
-- [ ] Create a new Cloud Storage bucket specifically for the e ternal company to access. Copy the object to that bucket. Delete the bucket after four hours have passed.
+- [ ] Create a new Cloud Storage bucket specifically for the external company to access. Copy the object to that bucket. Delete the bucket after four hours have passed.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -114,10 +112,10 @@
 
 ### You are deploying an application to a Compute Engine VM in a Managed Instance Group. The application must be running at all times, but only a single instance of the VM should run per GCP project. How should you configure the instance group?
 
-- [ ] Set autoscaling to On, set the minimum number of instances to 1, and then set the ma imum number of instances to 1.
-- [ ] Set autoscaling to Off, set the minimum number of instances to 1, and then set the ma imum number of instances to 1.
-- [ ] Set autoscaling to On, set the minimum number of instances to 1, and then set the ma imum number of instances to 2.
-- [ ] Set autoscaling to Off, set the minimum number of instances to 1, and then set the ma imum number of instances to 2.
+- [ ] Set autoscaling to On, set the minimum number of instances to 1, and then set the maximum number of instances to 1.
+- [ ] Set autoscaling to Off, set the minimum number of instances to 1, and then set the maximum number of instances to 1.
+- [ ] Set autoscaling to On, set the minimum number of instances to 1, and then set the maximum number of instances to 2.
+- [ ] Set autoscaling to Off, set the minimum number of instances to 1, and then set the maximum number of instances to 2.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -134,17 +132,17 @@
 
 - [ ] Configure an HTTP(S) load balancer.
 - [ ] Configure an internal TCP load balancer.
-- [ ] Configure an e ternal SSL pro y load balancer.
-- [ ] Configure an e ternal TCP pro y load balancer.
+- [ ] Configure an external SSL proxy load balancer.
+- [ ] Configure an external TCP proxy load balancer.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You have a web application deployed as a Managed Instance Group. You have a new version of the application to gradually deploy. Your web application is currently receiving live web traffic. You want to ensure that the available capacity does not decrease during the deployment. What should you do?
 
-- [ ] Perform a rolling-action start-update with ma Surge set to 0 and ma Unavailable set to 1.
-- [ ] Perform a rolling-action start-update with ma Surge set to 1 and ma Unavailable set to 0.
+- [ ] Perform a rolling-action start-update with maxSurge set to 0 and maxUnavailable set to 1.
+- [ ] Perform a rolling-action start-update with maxSurge set to 1 and maxUnavailable set to 0.
 - [ ] Create a new Managed Instance Group with an updated instance template. Add the group to the backend service for the load balancer. When all instances in the new Managed Instance Group are healthy, delete the old Managed Instance Group.
-- [ ] Create a new instance template with the new application version. Update the e isting Managed Instance Group with the new instance template. Delete the instances in the Managed Instance Group to allow the Managed Instance Group to recreate the instance using the new instance template.
+- [ ] Create a new instance template with the new application version. Update the existing Managed Instance Group with the new instance template. Delete the instances in the Managed Instance Group to allow the Managed Instance Group to recreate the instance using the new instance template.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -157,12 +155,12 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You need to create a new billing account and then link it with an e isting Google Cloud Platform project. What should you do?
+### You need to create a new billing account and then link it with an existing Google Cloud Platform project. What should you do?
 
-- [ ] Verify that you are Project Billing Manager for the GCP project. Update the e isting project to link it to the e isting billing account.
-- [ ] Verify that you are Project Billing Manager for the GCP project. Create a new billing account and link the new billing account to the e isting project.
-- [ ] Verify that you are Billing Administrator for the billing account. Create a new project and link the new project to the e isting billing account.
-- [ ] Verify that you are Billing Administrator for the billing account. Update the e isting project to link it to the e isting billing account.
+- [ ] Verify that you are Project Billing Manager for the GCP project. Update the existing project to link it to the existing billing account.
+- [ ] Verify that you are Project Billing Manager for the GCP project. Create a new billing account and link the new billing account to the existing project.
+- [ ] Verify that you are Billing Administrator for the billing account. Create a new project and link the new project to the existing billing account.
+- [ ] Verify that you are Billing Administrator for the billing account. Update the existing project to link it to the existing billing account.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -175,7 +173,7 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You need to run an important query in BigQuery but e pect it to return a lot of records. You want to find out how much it will cost to run the query. You are using on-demand pricing. What should you do?
+### You need to run an important query in BigQuery but expect it to return a lot of records. You want to find out how much it will cost to run the query. You are using on-demand pricing. What should you do?
 
 - [ ] Arrange to switch to Flat-Rate pricing for this query, then move back to on-demand.
 - [ ] Use the command line to run a dry run query to estimate the number of bytes read. Then convert that bytes estimate to dollars using the Pricing Calculator.
@@ -193,7 +191,7 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You need a dynamic way of provisioning VMs on Compute Engine. The e act specifications will be in a dedicated configuration file. You want to follow Google's recommended practices. Which method should you use?
+### You need a dynamic way of provisioning VMs on Compute Engine. The exact specifications will be in a dedicated configuration file. You want to follow Google's recommended practices. Which method should you use?
 
 - [ ] Deployment Manager.
 - [ ] Cloud Composer.
@@ -204,10 +202,10 @@
 
 ### You created an instance of SQL Server 2017 on Compute Engine to test features in the new version. You want to connect to this instance using the fewest number of steps. What should you do?
 
-- [ ] Install a RDP client on your desktop. Verify that a firewall rule for port 3389 e ists.
+- [ ] Install a RDP client on your desktop. Verify that a firewall rule for port 3389 exists.
 - [ ] Install a RDP client in your desktop. Set a Windows username and password in the GCP Console. Use the credentials to log in to the instance.
-- [ ] Set a Windows password in the GCP Console. Verify that a firewall rule for port 22 e ists. Click the RDP button in the GCP Console and supply the credentials to log in.
-- [ ] Set a Windows username and password in the GCP Console. Verify that a firewall rule for port 3389 e ists. Click the RDP button in the GCP Console, and supply the credentials to log in.
+- [ ] Set a Windows password in the GCP Console. Verify that a firewall rule for port 22 exists. Click the RDP button in the GCP Console and supply the credentials to log in.
+- [ ] Set a Windows username and password in the GCP Console. Verify that a firewall rule for port 3389 exists. Click the RDP button in the GCP Console, and supply the credentials to log in.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -256,10 +254,10 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Your company has an e isting GCP organization with hundreds of projects and a billing account. Your company recently acquired another company that also has hundreds of projects and its own billing account. You would like to consolidate all GCP costs of both GCP organizations onto a single invoice. You would like to consolidate all costs as of tomorrow. What should you do?
+### Your company has an existing GCP organization with hundreds of projects and a billing account. Your company recently acquired another company that also has hundreds of projects and its own billing account. You would like to consolidate all GCP costs of both GCP organizations onto a single invoice. You would like to consolidate all costs as of tomorrow. What should you do?
 
 - [ ] Link the acquired company's projects to your company's billing account.
-- [ ] Configure the acquired company's billing account and your company's billing account to e port the billing data into the same BigQuery dataset.
+- [ ] Configure the acquired company's billing account and your company's billing account to export the billing data into the same BigQuery dataset.
 - [ ] Migrate the acquired company's projects into your company's GCP organization. Link the migrated projects to your company's billing account.
 - [ ] Create a new GCP organization and a new billing account. Migrate the acquired company's projects and your company's projects into the new GCP organization and link the projects to the new billing account.
 
@@ -287,12 +285,12 @@
 
 - [ ] Use gcloud config configurations describe to review the output.
 - [ ] Use gcloud config configurations activate and gcloud config list to review the output.
-- [ ] Use kubectl config get-conte ts to review the output.
-- [ ] Use kubectl config use-conte t and kubectl config view to review the output.
+- [ ] Use kubectl config get-contexts to review the output.
+- [ ] Use kubectl config use-context and kubectl config view to review the output.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You need to configure IAM access audit logging in BigQuery for e ternal auditors. You want to follow Google-recommended practices. What should you do?
+### You need to configure IAM access audit logging in BigQuery for external auditors. You want to follow Google-recommended practices. What should you do?
 
 - [ ] Add the auditors group to the 'logging.viewer' and 'bigQuery.dataViewer' predefined IAM roles.
 - [ ] Add the auditors group to two new custom IAM roles.
@@ -321,14 +319,14 @@
 
 ### You want to configure Autohealing for network load balancing for a group of Compute Engine instances that run in multiple zones, using the fewest possible steps. You need to configure re-creation of VMs if they are unresponsive after 3 attempts of 10 seconds each. What should you do?
 
-- [ ] Create an HTTP load balancer with a backend configuration that references an e isting instance group. Set the health check to healthy (HTTP).
-- [ ] Create an HTTP load balancer with a backend configuration that references an e isting instance group. Define a balancing mode and set the ma imum RPS to 10.
+- [ ] Create an HTTP load balancer with a backend configuration that references an existing instance group. Set the health check to healthy (HTTP).
+- [ ] Create an HTTP load balancer with a backend configuration that references an existing instance group. Define a balancing mode and set the maximum RPS to 10.
 - [ ] Create a Managed Instance Group. Set the Autohealing health check to healthy (HTTP).
 - [ ] Create a Managed Instance Group. Verify that the autoscaling setting is on.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You have a Linu  VM that must connect to Cloud SQL. You created a service account with the appropriate access rights. You want to make sure that the VM uses this service account instead of the default Compute Engine service account. What should you do?
+### You have a Linux VM that must connect to Cloud SQL. You created a service account with the appropriate access rights. You want to make sure that the VM uses this service account instead of the default Compute Engine service account. What should you do?
 
 - [ ] When creating the VM via the web console, specify the service account under the 'Identity and API Access' section.
 - [ ] Download a JSON Private Key for the service account. On the Project Metadata, add that JSON as the value for the key compute-engine-service-account.
@@ -364,11 +362,11 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You need to deploy an application, which is packaged in a container image, in a new project. The application e poses an HTTP endpoint and receives very few requests per day. You want to minimize costs. What should you do?
+### You need to deploy an application, which is packaged in a container image, in a new project. The application exposes an HTTP endpoint and receives very few requests per day. You want to minimize costs. What should you do?
 
 - [ ] Deploy the container on Cloud Run.
 - [ ] Deploy the container on Cloud Run on GK.
-- [ ] Deploy the container on App Engine Fle ible.
+- [ ] Deploy the container on App Engine Flexible.
 - [ ] Deploy the container on Google Kubernetes Engine, with cluster autoscaling and horizontal pod autoscaling enabled.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -411,9 +409,9 @@
 
 ### You created a Google Cloud Platform project with an App Engine application inside the project. You initially configured the application to be served from the us-central region. Now you want the application to be served from the asia-northeast1 region. What should you do?
 
-- [ ] Change the default region property setting in the e isting GCP project to asia-northeast1.
-- [ ] Change the region property setting in the e isting App Engine application from us-central to asia-northeast1.
-- [ ] Create a second App Engine application in the e isting GCP project and specify asia-northeast1 as the region to serve your application.
+- [ ] Change the default region property setting in the existing GCP project to asia-northeast1.
+- [ ] Change the region property setting in the existing App Engine application from us-central to asia-northeast1.
+- [ ] Create a second App Engine application in the existing GCP project and specify asia-northeast1 as the region to serve your application.
 - [ ] Create a new GCP project and create an App Engine application inside this new project. Specify asia-northeast1 as the region to serve your application.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -476,7 +474,7 @@
 
 - [ ] Manual Scaling with 3 instances.
 - [ ] Basic Scaling with min_instances set to 3.
-- [ ] Basic Scaling with ma _instances set to 3.
+- [ ] Basic Scaling with max_instances set to 3.
 - [ ] Automatic Scaling with min_idle_instances set to 3.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -499,10 +497,10 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You are running an application on multiple Virtual Machines within a Managed Instance Group and have autoscaling enabled. The autoscaling policy is configured so that additional instances are added to the group if the CPU utilization of instances goes above 80%. VMs are added until the instance group reaches its ma imum limit of five VMs or until CPU utilization of instances lowers to 80%. The initial delay for HTTP health checks against the instances is set to 30 seconds. The Virtual Machine instances take around three minutes to become available for users. You observe that when the instance group autoscales, it adds more instances then necessary to support the levels of end-user traffic. You want to properly maintain instance group sizes when autoscaling. What should you do?
+### You are running an application on multiple Virtual Machines within a Managed Instance Group and have autoscaling enabled. The autoscaling policy is configured so that additional instances are added to the group if the CPU utilization of instances goes above 80%. VMs are added until the instance group reaches its maximum limit of five VMs or until CPU utilization of instances lowers to 80%. The initial delay for HTTP health checks against the instances is set to 30 seconds. The Virtual Machine instances take around three minutes to become available for users. You observe that when the instance group autoscales, it adds more instances then necessary to support the levels of end-user traffic. You want to properly maintain instance group sizes when autoscaling. What should you do?
 
-- [ ] Set the ma imum number of instances to 1.
-- [ ] Decrease the ma imum number of instances to 3.
+- [ ] Set the maximum number of instances to 1.
+- [ ] Decrease the maximum number of instances to 3.
 - [ ] Use a TCP health check instead of an HTTP health check.
 - [ ] Increase the initial delay of the HTTP health check to 200 seconds.
 
@@ -520,7 +518,7 @@
 ### You deployed an App Engine application using gcloud app deploy, but it did not deploy to the intended project. You want to find out why this happened and where the application deployed. What should you do?
 
 - [ ] Check the app.yaml file for your application and check project settings.
-- [ ] Check the web-application. ml file for your application and check project settings.
+- [ ] Check the web-application.xml file for your application and check project settings.
 - [ ] Go to Deployment Manager and review settings for deployment of applications.
 - [ ] Go to Cloud Shell and run gcloud config list to review the Google Cloud configuration used for deployment.
 
@@ -556,8 +554,8 @@
 ### You are hosting an application on bare-metal servers in your own data center. The application needs access to Cloud Storage. However, security policies prevent the servers hosting the application from having public IP addresses or access to the internet. You want to follow Google-recommended practices to provide the application with access to Cloud Storage. What should you do?
 
 - [ ] 1. Use nslookup to get the IP address for storage.googleapis.com. 2. Negotiate with the security team to be able to give a public IP address to the servers. 3. Only allow egress traffic from those servers to the IP addresses for storage.googleapis.com.
-- [ ] 1. Using Cloud VPN, create a VPN tunnel to a Virtual Private Cloud (VPC) in Google Cloud. 2. In this VPC, create a Compute Engine instance and install the Squid pro y server on this instance. 3. Configure your servers to use that instance as a pro y to access Cloud Storage.
-- [ ] 1. Use Migrate for Compute Engine (formerly known as Velostrata) to migrate those servers to Compute Engine. 2. Create an internal load balancer (ILB) that uses storage.googleapis.com as backend. 3. Configure your new instances to use this ILB as pro y.
+- [ ] 1. Using Cloud VPN, create a VPN tunnel to a Virtual Private Cloud (VPC) in Google Cloud. 2. In this VPC, create a Compute Engine instance and install the Squid proxy server on this instance. 3. Configure your servers to use that instance as a proxy to access Cloud Storage.
+- [ ] 1. Use Migrate for Compute Engine (formerly known as Velostrata) to migrate those servers to Compute Engine. 2. Create an internal load balancer (ILB) that uses storage.googleapis.com as backend. 3. Configure your new instances to use this ILB as proxy.
 - [ ] 1. Using Cloud VPN or Interconnect, create a tunnel to a VPC in Google Cloud. 2. Use Cloud Router to create a custom route advertisement for 199.36.153.4/30. Announce that network to your on-premises network through the VPN tunnel. 3. In your on-premises network, configure your DNS server to resolve *.googleapis.com as a CNAME to restricted.googleapis.com.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -574,13 +572,13 @@
 ### You are given a project with a single Virtual Private Cloud (VPC) and a single subnetwork in the us-central1 region. There is a Compute Engine instance hosting an application in this subnetwork. You need to deploy a new instance in the same project in the europe-west1 region. This new instance needs access to the application. You want to follow Google-recommended practices. What should you do?
 
 - [ ] 1. Create a subnetwork in the same VPC, in europe-west1. 2. Create the new instance in the new subnetwork and use the first instance's private address as the endpoint.
-- [ ] 1. Create a VPC and a subnetwork in europe-west1. 2. E pose the application with an internal load balancer. 3. Create the new instance in the new subnetwork and use the load balancer's address as the endpoint.
+- [ ] 1. Create a VPC and a subnetwork in europe-west1. 2. Expose the application with an internal load balancer. 3. Create the new instance in the new subnetwork and use the load balancer's address as the endpoint.
 - [ ] 1. Create a subnetwork in the same VPC, in europe-west1. 2. Use Cloud VPN to connect the two subnetworks. 3. Create the new instance in the new subnetwork and use the first instance's private address as the endpoint.
 - [ ] 1. Create a VPC and a subnetwork in europe-west1. 2. Peer the 2 VPCs. 3. Create the new instance in the new subnetwork and use the first instance's private address as the endpoint.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You are building a pipeline to process time-series data. Which Google Cloud Platform services should you put in bo es 1,2,3, and 4?
+### You are building a pipeline to process time-series data. Which Google Cloud Platform services should you put in boxes 1,2,3, and 4?
 
 ![Google Cloud Platform services](images/pipeline.jpeg)
 
@@ -594,9 +592,9 @@
 ### For analysis purposes, you need to send all the logs from all of your Compute Engine instances to a BigQuery dataset called platform-logs. You have already installed the Cloud Logging agent on all the instances. You want to minimize cost. What should you do?
 
 - [ ] 1. Give the BigQuery Data Editor role on the platform-logs dataset to the service accounts used by your instances. 2. Update your instances' metadata to add the following value: logs-destination: bq://platform-logs.
-- [ ] 1. In Cloud Logging, create a logs e port with a Cloud Pub/Sub topic called logs as a sink. 2. Create a Cloud Function that is triggered by messages in the logs topic. 3. Configure that Cloud Function to drop logs that are not from Compute Engine and to insert Compute Engine logs in the platform-logs dataset.
-- [ ] 1. In Cloud Logging, create a filter to view only Compute Engine logs. 2. Click Create E port. 3. Choose BigQuery as Sink Service, and the platform-logs dataset as Sink Destination.
-- [ ] 1. Create a Cloud Function that has the BigQuery User role on the platform-logs dataset. 2. Configure this Cloud Function to create a BigQuery Job that e ecutes this query: INSERT INTO dataset.platform-logs (timestamp, log) SELECT timestamp, log FROM compute.logs WHERE timestamp > DATE_SUB(CURRENT_DATE(), INTERVAL 1 DAY) 3. Use Cloud Scheduler to trigger this Cloud Function once a day.
+- [ ] 1. In Cloud Logging, create a logs export with a Cloud Pub/Sub topic called logs as a sink. 2. Create a Cloud Function that is triggered by messages in the logs topic. 3. Configure that Cloud Function to drop logs that are not from Compute Engine and to insert Compute Engine logs in the platform-logs dataset.
+- [ ] 1. In Cloud Logging, create a filter to view only Compute Engine logs. 2. Click Create Export. 3. Choose BigQuery as Sink Service, and the platform-logs dataset as Sink Destination.
+- [ ] 1. Create a Cloud Function that has the BigQuery User role on the platform-logs dataset. 2. Configure this Cloud Function to create a BigQuery Job that executes this query: INSERT INTO dataset.platform-logs (timestamp, log) SELECT timestamp, log FROM compute.logs WHERE timestamp > DATE_SUB(CURRENT_DATE(), INTERVAL 1 DAY) 3. Use Cloud Scheduler to trigger this Cloud Function once a day.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -609,16 +607,16 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Your projects incurred more costs than you e pected last month. Your research reveals that a development GKE container emitted a huge number of logs, which resulted in higher costs. You want to disable the logs quickly using the minimum number of steps. What should you do?
+### Your projects incurred more costs than you expected last month. Your research reveals that a development GKE container emitted a huge number of logs, which resulted in higher costs. You want to disable the logs quickly using the minimum number of steps. What should you do?
 
 - [ ] 1. Go to the Logs ingestion window in Stackdriver Logging, and disable the log source for the GKE container resource.
 - [ ] 1. Go to the Logs ingestion window in Stackdriver Logging, and disable the log source for the GKE Cluster Operations resource.
-- [ ] 1. Go to the GKE console, and delete e isting clusters. 2. Recreate a new cluster. 3. Clear the option to enable legacy Stackdriver Logging.
-- [ ] 1. Go to the GKE console, and delete e isting clusters. 2. Recreate a new cluster. 3. Clear the option to enable legacy Stackdriver Monitoring.
+- [ ] 1. Go to the GKE console, and delete existing clusters. 2. Recreate a new cluster. 3. Clear the option to enable legacy Stackdriver Logging.
+- [ ] 1. Go to the GKE console, and delete existing clusters. 2. Recreate a new cluster. 3. Clear the option to enable legacy Stackdriver Monitoring.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You've deployed a microservice called myapp1 to a Google Kubernetes Engine cluster using the YAML file specified below. You need to refactor this configuration so that the database password is not stored in plain te t. You want to follow Google-recommended practices. What should you do?
+### You've deployed a microservice called myapp1 to a Google Kubernetes Engine cluster using the YAML file specified below. You need to refactor this configuration so that the database password is not stored in plain text. You want to follow Google-recommended practices. What should you do?
 
 ![YAML of microservice myapp1](images/yaml.jpg)
 
@@ -629,10 +627,10 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You have an application running in Google Kubernetes Engine (GKE) with cluster autoscaling enabled. The application e poses a TCP endpoint. There are several replicas of this application. You have a Compute Engine instance in the same region, but in another Virtual Private Cloud (VPC), called gce-network, that has no overlapping IP ranges with the first VPC. This instance needs to connect to the application on GKE. You want to minimize effort. What should you do?
+### You have an application running in Google Kubernetes Engine (GKE) with cluster autoscaling enabled. The application exposes a TCP endpoint. There are several replicas of this application. You have a Compute Engine instance in the same region, but in another Virtual Private Cloud (VPC), called gce-network, that has no overlapping IP ranges with the first VPC. This instance needs to connect to the application on GKE. You want to minimize effort. What should you do?
 
-- [ ] 1. In GKE, create a Service of type LoadBalancer that uses the application's Pods as backend. 2. Set the service's e ternalTrafficPolicy to Cluster. 3. Configure the Compute Engine instance to use the address of the load balancer that has been created.
-- [ ] 1. In GKE, create a Service of type NodePort that uses the application's Pods as backend. 2. Create a Compute Engine instance called pro y with 2 network interfaces, one in each VPC. 3. Use iptables on this instance to forward traffic from gce-network to the GKE nodes. 4. Configure the Compute Engine instance to use the address of pro y in gce-network as endpoint.
+- [ ] 1. In GKE, create a Service of type LoadBalancer that uses the application's Pods as backend. 2. Set the service's externalTrafficPolicy to Cluster. 3. Configure the Compute Engine instance to use the address of the load balancer that has been created.
+- [ ] 1. In GKE, create a Service of type NodePort that uses the application's Pods as backend. 2. Create a Compute Engine instance called proxy with 2 network interfaces, one in each VPC. 3. Use iptables on this instance to forward traffic from gce-network to the GKE nodes. 4. Configure the Compute Engine instance to use the address of proxy in gce-network as endpoint.
 - [ ] 1. In GKE, create a Service of type LoadBalancer that uses the application's Pods as backend. 2. Add an annotation to this service: cloud.google.com/load-balancer-type: Internal 3. Peer the two VPCs together. 4. Configure the Compute Engine instance to use the address of the load balancer that has been created.
 - [ ] 1. In GKE, create a Service of type LoadBalancer that uses the application's Pods as backend. 2. Add a Cloud Armor Security Policy to the load balancer that whitelists the internal IPs of the MIG's instances. 3. Configure the Compute Engine instance to use the address of the load balancer that has been created.
 
@@ -696,7 +694,7 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You need to provide a cost estimate for a Kubernetes cluster using the GCP pricing calculator for Kubernetes. Your workload requires high IOPs, and you will also be using disk snapshots. You start by entering the number of nodes, average hours, and average days. What should you do ne t?
+### You need to provide a cost estimate for a Kubernetes cluster using the GCP pricing calculator for Kubernetes. Your workload requires high IOPs, and you will also be using disk snapshots. You start by entering the number of nodes, average hours, and average days. What should you do next?
 
 - [ ] Fill in local SSD. Fill in persistent disk storage and snapshot storage.
 - [ ] Fill in local SSD. Add estimated cost for cluster management.
@@ -705,12 +703,12 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You are using Google Kubernetes Engine with autoscaling enabled to host a new application. You want to e pose this new application to the public, using HTTPS on a public IP address. What should you do?
+### You are using Google Kubernetes Engine with autoscaling enabled to host a new application. You want to expose this new application to the public, using HTTPS on a public IP address. What should you do?
 
-- [ ] Create a Kubernetes Service of type NodePort for your application, and a Kubernetes Ingress to e pose this Service via a Cloud Load Balancer.
+- [ ] Create a Kubernetes Service of type NodePort for your application, and a Kubernetes Ingress to expose this Service via a Cloud Load Balancer.
 - [ ] Create a Kubernetes Service of type ClusterIP for your application. Configure the public DNS name of your application using the IP of this Service.
-- [ ] Create a Kubernetes Service of type NodePort to e pose the application on port 443 of each node of the Kubernetes cluster. Configure the public DNS name of your application with the IP of every node of the cluster to achieve load-balancing.
-- [ ] Create a HAPro y pod in the cluster to load-balance the traffic to all the pods of the application. Forward the public traffic to HAPro y with an iptable rule. Configure the DNS name of your application using the public IP of the node HAPro y is running on.
+- [ ] Create a Kubernetes Service of type NodePort to expose the application on port 443 of each node of the Kubernetes cluster. Configure the public DNS name of your application with the IP of every node of the cluster to achieve load-balancing.
+- [ ] Create a HAProxy pod in the cluster to load-balance the traffic to all the pods of the application. Forward the public traffic to HAProxy with an iptable rule. Configure the DNS name of your application using the public IP of the node HAProxy is running on.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -741,9 +739,9 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Your VMs are running in a subnet that has a subnet mask of 255.255.255.240. The current subnet has no more free IP addresses and you require an additional 10 IP addresses for new VMs. The e isting and new VMs should all be able to reach each other without additional routes. What should you do?
+### Your VMs are running in a subnet that has a subnet mask of 255.255.255.240. The current subnet has no more free IP addresses and you require an additional 10 IP addresses for new VMs. The existing and new VMs should all be able to reach each other without additional routes. What should you do?
 
-- [ ] Use gcloud to e pand the IP range of the current subnet.
+- [ ] Use gcloud to expand the IP range of the current subnet.
 - [ ] Delete the subnet, and recreate it using a wider range of IP addresses.
 - [ ] Create a new project. Use Shared VPC to share the current network with the new project.
 - [ ] Create a new subnet with the same starting IP but a wider range to overwrite the current subnet.
@@ -763,8 +761,8 @@
 
 - [ ] Create two configurations using gcloud config. Write a script that sets configurations as active, individually. For each configuration, use gcloud compute instances list to get a list of compute resources.
 - [ ] Create two configurations using gsutil config. Write a script that sets configurations as active, individually. For each configuration, use gsutil compute instances list to get a list of compute resources.
-- [ ] Go to Cloud Shell and e port this information to Cloud Storage on a daily basis.
-- [ ] Go to GCP Console and e port this information to Cloud SQL on a daily basis.
+- [ ] Go to Cloud Shell and export this information to Cloud Storage on a daily basis.
+- [ ] Go to GCP Console and export this information to Cloud SQL on a daily basis.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -772,7 +770,7 @@
 
 - [ ] Load data in Cloud Datastore and run a SQL query against it.
 - [ ] Create a BigQuery table and load data in BigQuery. Run a SQL query on this table and drop this table after you complete your request.
-- [ ] Create e ternal tables in BigQuery that point to Cloud Storage buckets and run a SQL query on these e ternal tables to complete your request.
+- [ ] Create external tables in BigQuery that point to Cloud Storage buckets and run a SQL query on these external tables to complete your request.
 - [ ] Create a Hadoop cluster and copy the AVRO file to NDFS by compressing it. Load the file in a hive table and provide access to your analysts so that they can run SQL queries.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -789,7 +787,7 @@
 ### You deployed an LDAP server on Compute Engine that is reachable via TLS through port 636 using UDP. You want to make sure it is reachable by clients over that port. What should you do?
 
 - [ ] Add the network tag allow-udp-636 to the VM instance running the LDAP server.
-- [ ] Create a route called allow-udp-636 and set the ne t hop to be the VM instance running the LDAP server.
+- [ ] Create a route called allow-udp-636 and set the next hop to be the VM instance running the LDAP server.
 - [ ] Add a network tag of your choice to the instance. Create a firewall rule to allow ingress on UDP port 636 for that network tag.
 - [ ] Add a network tag of your choice to the instance running the LDAP server. Create a firewall rule to allow egress on UDP port 636 for that network tag.
 
@@ -822,11 +820,11 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Your company's infrastructure is on-premises, but all machines are running at ma imum capacity. You want to burst to Google Cloud. The workloads on Google Cloud must be able to directly communicate to the workloads on-premises using a private IP range. What should you do?
+### Your company's infrastructure is on-premises, but all machines are running at maximum capacity. You want to burst to Google Cloud. The workloads on Google Cloud must be able to directly communicate to the workloads on-premises using a private IP range. What should you do?
 
 - [ ] In Google Cloud, configure the VPC as a host for Shared VP.
 - [ ] In Google Cloud, configure the VPC for VPC Network Peering.
-- [ ] Create bastion hosts both in your on-premises environment and on Google Cloud. Configure both as pro y servers using their public IP addresses.
+- [ ] Create bastion hosts both in your on-premises environment and on Google Cloud. Configure both as proxy servers using their public IP addresses.
 - [ ] Set up Cloud VPN between the infrastructure on-premises and Google Cloud.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -840,16 +838,16 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Your company uses BigQuery for data warehousing. Over time, many different business units in your company have created 1000+ datasets across hundreds of projects. Your CIO wants you to e amine all datasets to find tables that contain an employee_ssn column. You want to minimize effort in performing this task. What should you do?
+### Your company uses BigQuery for data warehousing. Over time, many different business units in your company have created 1000+ datasets across hundreds of projects. Your CIO wants you to examine all datasets to find tables that contain an employee_ssn column. You want to minimize effort in performing this task. What should you do?
 
-- [ ] Go to Data Catalog and search for employee_ssn in the search bo .
+- [ ] Go to Data Catalog and search for employee_ssn in the search box.
 - [ ] Write a shell script that uses the bq command line tool to loop through all the projects in your organization.
 - [ ] Write a script that loops through all the projects in your organization and runs a query on INFORMATION_SCHEMA.COLUMNS view to find the employee_ssn column.
 - [ ] Write a Cloud Dataflow job that loops through all the projects in your organization and runs a query on INFORMATION_SCHEMA.COLUMNS view to find employee_ssn column.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You create a Deployment with 2 replicas in a Google Kubernetes Engine cluster that has a single preemptible node pool. After a few minutes, you use kubectl to e amine the status of your Pod and observe that one of them is still in Pending status. What is the most likely cause?
+### You create a Deployment with 2 replicas in a Google Kubernetes Engine cluster that has a single preemptible node pool. After a few minutes, you use kubectl to examine the status of your Pod and observe that one of them is still in Pending status. What is the most likely cause?
 
 ![Deployed pods status](images/pods.png)
 
@@ -879,11 +877,11 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You are building a product on top of Google Kubernetes Engine (GKE). You have a single GKE cluster. For each of your customers, a Pod is running in that cluster, and your customers can run arbitrary code inside their Pod. You want to ma imize the isolation between your customers' Pods. What should you do?
+### You are building a product on top of Google Kubernetes Engine (GKE). You have a single GKE cluster. For each of your customers, a Pod is running in that cluster, and your customers can run arbitrary code inside their Pod. You want to maximize the isolation between your customers' Pods. What should you do?
 
 - [ ] Use Binary Authorization and whitelist only the container images used by your customers' Pods.
 - [ ] Use the Container Analysis API to detect vulnerabilities in the containers used by your customers' Pods.
-- [ ] Create a GKE node pool with a sandbo  type configured to gvisor. Add the parameter runtimeClassName: gvisor to the specification of your customers' Pods.
+- [ ] Create a GKE node pool with a sandbox type configured to gvisor. Add the parameter runtimeClassName: gvisor to the specification of your customers' Pods.
 - [ ] Use the cos_containerd image for your GKE nodes. Add a nodeSelector with the value cloud.google.com/gke-os-distribution: cos_containerd to the specification of your customers' Pods.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -893,9 +891,9 @@
 ![Database table](images/db_table.png)
 
 - [ ] Remove the profile_picture field from the table.
-- [ ] Add a secondary inde  on the person_id column.
+- [ ] Add a secondary index on the person_id column.
 - [ ] Change the primary key to not have monotonically increasing values.
-- [ ] Create a secondary inde  using the following Data Definition Language (DDL):
+- [ ] Create a secondary index using the following Data Definition Language (DDL):
 
 ![DDL](images/ddl.png)
 
@@ -939,14 +937,14 @@
 
 ### You have a developer laptop with the Cloud SDK installed on Ubuntu. The Cloud SDK was installed from the Google Cloud Ubuntu package repository. You want to test your application locally on your laptop with Cloud Datastore. What should you do?
 
-- [ ] E port Cloud Datastore data using gcloud datastore e port.
-- [ ] Create a Cloud Datastore inde  using gcloud datastore inde es create.
+- [ ] Export Cloud Datastore data using gcloud datastore export.
+- [ ] Create a Cloud Datastore index using gcloud datastore indexes create.
 - [ ] Install the google-cloud-sdk-datastore-emulator component using the apt get install command.
 - [ ] Install the cloud-datastore-emulator component using the gcloud components install command.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Your company set up a comple  organizational structure on Google Cloud. The structure includes hundreds of folders and projects. Only a few team members should be able to view the hierarchical structure. You need to assign minimum permissions to these team members, and you want to follow Google-recommended practices. What should you do?
+### Your company set up a complex organizational structure on Google Cloud. The structure includes hundreds of folders and projects. Only a few team members should be able to view the hierarchical structure. You need to assign minimum permissions to these team members, and you want to follow Google-recommended practices. What should you do?
 
 - [ ] Add the users to roles/browser role.
 - [ ] Add the users to roles/iam.roleViewer role.
@@ -995,21 +993,21 @@
 
 - [ ] Use Google Cloud Directory Sync (GCDS) to synchronize users into Cloud Identity.
 - [ ] Use the cloud Identity APIs and write a script to synchronize users to Cloud Identity.
-- [ ] E port users from Active Directory as a CSV and import them to Cloud Identity via the Admin Console.
+- [ ] Export users from Active Directory as a CSV and import them to Cloud Identity via the Admin Console.
 - [ ] Ask each employee to create a Google account using self signup. Require that each employee use their company email address and password.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You have successfully created a development environment in a project for an application. This application uses Compute Engine and Cloud SQL. Now you need to create a production environment for this application. The security team has forbidden the e istence of network routes between these 2 environments and has asked you to follow Google-recommended practices. What should you do?
+### You have successfully created a development environment in a project for an application. This application uses Compute Engine and Cloud SQL. Now you need to create a production environment for this application. The security team has forbidden the existence of network routes between these 2 environments and has asked you to follow Google-recommended practices. What should you do?
 
 - [ ] Create a new project, enable the Compute Engine and Cloud SQL APIs in that project, and replicate the setup you have created in the development environment.
-- [ ] Create a new production subnet in the e isting VPC and a new production Cloud SQL instance in your e isting project, and deploy your application using those resources.
-- [ ] Create a new project, modify your e isting VPC to be a Shared VPC, share that VPC with your new project, and replicate the setup you have in the development environment in that new project in the Shared VP.
-- [ ] Ask the security team to grant you the Project Editor role in an e isting production project used by another division of your company. Once they grant you that role, replicate the setup you have in the development environment in that project.
+- [ ] Create a new production subnet in the existing VPC and a new production Cloud SQL instance in your existing project, and deploy your application using those resources.
+- [ ] Create a new project, modify your existing VPC to be a Shared VPC, share that VPC with your new project, and replicate the setup you have in the development environment in that new project in the Shared VP.
+- [ ] Ask the security team to grant you the Project Editor role in an existing production project used by another division of your company. Once they grant you that role, replicate the setup you have in the development environment in that project.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Your management has asked an e ternal auditor to review all the resources in a specific project. The security team has enabled the Organization Policy called Domain Restricted Sharing on the organization node by specifying only your Cloud Identity domain. You want the auditor to only be able to view, but not modify, the resources in that project. What should you do?
+### Your management has asked an external auditor to review all the resources in a specific project. The security team has enabled the Organization Policy called Domain Restricted Sharing on the organization node by specifying only your Cloud Identity domain. You want the auditor to only be able to view, but not modify, the resources in that project. What should you do?
 
 - [ ] Ask the auditor for their Google account, and give them the Viewer role on the project.
 - [ ] Ask the auditor for their Google account, and give them the Security Reviewer role on the project.
@@ -1023,29 +1021,29 @@
 - [ ] Create a Cloud Function to create an instance template.
 - [ ] Create a snapshot schedule for the disk using the desired interval.
 - [ ] Create a cron job to create a new disk from the disk using gcloud.
-- [ ] Create a Cloud Task to create an image and e port it to Cloud Storage.
+- [ ] Create a Cloud Task to create an image and export it to Cloud Storage.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You need to assign a Cloud Identity and Access Management (Cloud IAM) role to an e ternal auditor. The auditor needs to have permissions to review your Google Cloud Platform (GCP) Audit Logs and also to review your Data Access logs. What should you do?
+### You need to assign a Cloud Identity and Access Management (Cloud IAM) role to an external auditor. The auditor needs to have permissions to review your Google Cloud Platform (GCP) Audit Logs and also to review your Data Access logs. What should you do?
 
-- [ ] Assign the auditor the IAM role roles/logging.privateLogViewer. Perform the e port of logs to Cloud Storage.
+- [ ] Assign the auditor the IAM role roles/logging.privateLogViewer. Perform the export of logs to Cloud Storage.
 - [ ] Assign the auditor the IAM role roles/logging.privateLogViewer. Direct the auditor to also review the logs for changes to Cloud IAM policy.
-- [ ] Assign the auditor's IAM user to a custom role that has logging.privateLogEntries.list permission. Perform the e port of logs to Cloud Storage.
+- [ ] Assign the auditor's IAM user to a custom role that has logging.privateLogEntries.list permission. Perform the export of logs to Cloud Storage.
 - [ ] Assign the auditor's IAM user to a custom role that has logging.privateLogEntries.list permission. Direct the auditor to also review the logs for changes to Cloud IAM policy.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You are managing several Google Cloud Platform (GCP) projects and need access to all logs for the past 60 days. You want to be able to e plore and quickly analyze the log contents. You want to follow Google-recommended practices to obtain the combined logs for all projects. What should you do?
+### You are managing several Google Cloud Platform (GCP) projects and need access to all logs for the past 60 days. You want to be able to explore and quickly analyze the log contents. You want to follow Google-recommended practices to obtain the combined logs for all projects. What should you do?
 
 - [ ] Navigate to Stackdriver Logging and select resource.labels.project_id="*".
-- [ ] Create a Stackdriver Logging E port with a Sink destination to a BigQuery dataset. Configure the table e piration to 60 days.
-- [ ] Create a Stackdriver Logging E port with a Sink destination to Cloud Storage. Create a lifecycle rule to delete objects after 60 days.
-- [ ] Configure a Cloud Scheduler job to read from Stackdriver and store the logs in BigQuery. Configure the table e piration to 60 days.
+- [ ] Create a Stackdriver Logging Export with a Sink destination to a BigQuery dataset. Configure the table expiration to 60 days.
+- [ ] Create a Stackdriver Logging Export with a Sink destination to Cloud Storage. Create a lifecycle rule to delete objects after 60 days.
+- [ ] Configure a Cloud Scheduler job to read from Stackdriver and store the logs in BigQuery. Configure the table expiration to 60 days.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You need to reduce GCP service costs for a division of your company using the fewest possible steps. You need to turn off all configured services in an e isting GCP project. What should you do?
+### You need to reduce GCP service costs for a division of your company using the fewest possible steps. You need to turn off all configured services in an existing GCP project. What should you do?
 
 - [ ] 1. Verify that you are assigned the Project Owners IAM role for this project. 2. Locate the project in the GCP console, click Shut down and then enter the project I.
 - [ ] 1. Verify that you are assigned the Project Owners IAM role for this project. 2. Switch to the project in the GCP console, locate the resources and delete them.
@@ -1099,11 +1097,11 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Your Managed Instance Group raised an alert stating that new instance creation has failed to create new instances. You need to maintain the number of running instances specified by the template to be able to process e pected application traffic. What should you do?
+### Your Managed Instance Group raised an alert stating that new instance creation has failed to create new instances. You need to maintain the number of running instances specified by the template to be able to process expected application traffic. What should you do?
 
-- [ ] Create an instance template that contains valid synta  which will be used by the instance group. Delete any persistent disks with the same name as instance names.
-- [ ] Create an instance template that contains valid synta  that will be used by the instance group. Verify that the instance name and persistent disk name values are not the same in the template.
-- [ ] Verify that the instance template being used by the instance group contains valid synta . Delete any persistent disks with the same name as instance names. Set the disks.autoDelete property to true in the instance template.
+- [ ] Create an instance template that contains valid syntax which will be used by the instance group. Delete any persistent disks with the same name as instance names.
+- [ ] Create an instance template that contains valid syntax that will be used by the instance group. Verify that the instance name and persistent disk name values are not the same in the template.
+- [ ] Verify that the instance template being used by the instance group contains valid syntax. Delete any persistent disks with the same name as instance names. Set the disks.autoDelete property to true in the instance template.
 - [ ] Delete the current instance template and replace it with a new instance template. Verify that the instance name and persistent disk name values are not the same in the template. Set the disks.autoDelete property to true in the instance template.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1119,35 +1117,35 @@
 
 ### You have a Compute Engine instance hosting a production application. You want to receive an email if the instance consumes more than 90% of its CPU resources for more than 15 minutes. You want to use Google services. What should you do?
 
-- [ ] 1. Create a consumer Gmail account. 2. Write a script that monitors the CPU usage. 3. When the CPU usage e ceeds the threshold, have that script send an email using the Gmail account and smtp.gmail.com on port 25 as SMTP server.
+- [ ] 1. Create a consumer Gmail account. 2. Write a script that monitors the CPU usage. 3. When the CPU usage exceeds the threshold, have that script send an email using the Gmail account and smtp.gmail.com on port 25 as SMTP server.
 - [ ] 1. Create a Stackdriver Workspace, and associate your Google Cloud Platform (GCP) project with it. 2. Create an Alerting Policy in Stackdriver that uses the threshold as a trigger condition. 3. Configure your email address in the notification channel.
 - [ ] 1. Create a Stackdriver Workspace, and associate your GCP project with it. 2. Write a script that monitors the CPU usage and sends it as a custom metric to Stackdriver. 3. Create an uptime check for the instance in Stackdriver.
-- [ ] 1. In Stackdriver Logging, create a logs-based metric to e tract the CPU usage by using this regular e pression: CPU Usage: ([0-9] {1,3})% 2. In Stackdriver Monitoring, create an Alerting Policy based on this metric. 3. Configure your email address in the notification channel.
+- [ ] 1. In Stackdriver Logging, create a logs-based metric to extract the CPU usage by using this regular expression: CPU Usage: ([0-9] {1,3})% 2. In Stackdriver Monitoring, create an Alerting Policy based on this metric. 3. Configure your email address in the notification channel.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You have an application that uses Cloud Spanner as a backend database. The application has a very predictable traffic pattern. You want to automatically scale up or down the number of Spanner nodes depending on traffic. What should you do?
 
 - [ ] Create a cron job that runs on a scheduled basis to review Cloud Monitoring metrics, and then resize the Spanner instance accordingly.
-- [ ] Create a Cloud Monitoring alerting policy to send an alert to oncall SRE emails when Cloud Spanner CPU e ceeds the threshold. SREs would scale resources up or down accordingly.
-- [ ] Create a Cloud Monitoring alerting policy to send an alert to Google Cloud Support email when Cloud Spanner CPU e ceeds your threshold. Google support would scale resources up or down accordingly.
+- [ ] Create a Cloud Monitoring alerting policy to send an alert to oncall SRE emails when Cloud Spanner CPU exceeds the threshold. SREs would scale resources up or down accordingly.
+- [ ] Create a Cloud Monitoring alerting policy to send an alert to Google Cloud Support email when Cloud Spanner CPU exceeds your threshold. Google support would scale resources up or down accordingly.
 - [ ] Create a Cloud Monitoring alerting policy to send an alert to webhook when Cloud Spanner CPU is over or under your threshold. Create a Cloud Function that listens to HTTP and resizes Spanner resources accordingly.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Your company publishes large files on an Apache web server that runs on a Compute Engine instance. The Apache web server is not the only application running in the project. You want to receive an email when the egress network costs for the server e ceed 100 dollars for the current month as measured by Google Cloud. What should you do?
+### Your company publishes large files on an Apache web server that runs on a Compute Engine instance. The Apache web server is not the only application running in the project. You want to receive an email when the egress network costs for the server exceed 100 dollars for the current month as measured by Google Cloud. What should you do?
 
 - [ ] Set up a budget alert on the project with an amount of 100 dollars, a threshold of 100%, and notification type of email.
 - [ ] Set up a budget alert on the billing account with an amount of 100 dollars, a threshold of 100%, and notification type of email.
-- [ ] E port the billing data to BigQuery. Create a Cloud Function that uses BigQuery to sum the egress network costs of the e ported billing data for the Apache web server for the current month and sends an email if it is over 100 dollars. Schedule the Cloud Function using Cloud Scheduler to run hourly.
-- [ ] Use the Cloud Logging Agent to e port the Apache web server logs to Cloud Logging. Create a Cloud Function that uses BigQuery to parse the HTTP response log data in Cloud Logging for the current month and sends an email if the size of all HTTP responses, multiplied by current Google Cloud egress prices, totals over 100 dollars. Schedule the Cloud Function using Cloud Scheduler to run hourly.
+- [ ] Export the billing data to BigQuery. Create a Cloud Function that uses BigQuery to sum the egress network costs of the exported billing data for the Apache web server for the current month and sends an email if it is over 100 dollars. Schedule the Cloud Function using Cloud Scheduler to run hourly.
+- [ ] Use the Cloud Logging Agent to export the Apache web server logs to Cloud Logging. Create a Cloud Function that uses BigQuery to parse the HTTP response log data in Cloud Logging for the current month and sends an email if the size of all HTTP responses, multiplied by current Google Cloud egress prices, totals over 100 dollars. Schedule the Cloud Function using Cloud Scheduler to run hourly.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You have designed a solution on Google Cloud that uses multiple Google Cloud products. Your company has asked you to estimate the costs of the solution. You need to provide estimates for the monthly total cost. What should you do?
 
 - [ ] For each Google Cloud product in the solution, review the pricing details on the products pricing page. Use the pricing calculator to total the monthly costs for each Google Cloud product.
-- [ ] For each Google Cloud product in the solution, review the pricing details on the products pricing page. Create a Google Sheet that summarizes the e pected monthly costs for each product.
+- [ ] For each Google Cloud product in the solution, review the pricing details on the products pricing page. Create a Google Sheet that summarizes the expected monthly costs for each product.
 - [ ] Provision the solution on Google Cloud. Leave the solution provisioned for 1 week. Navigate to the Billing Report page in the Cloud Console. Multiply the 1 week cost to determine the monthly costs.
 - [ ] Provision the solution on Google Cloud. Leave the solution provisioned for 1 week. Use Cloud Monitoring to determine the provisioned and used resource amounts. Multiply the 1 week cost to determine the monthly costs.
 
@@ -1157,12 +1155,12 @@
 
 - [ ] HTTPS Load Balancer.
 - [ ] Network Load Balancer.
-- [ ] SSL Pro y Load Balancer.
+- [ ] SSL Proxy Load Balancer.
 - [ ] Internal TCP/UDP Load Balancer. Add a firewall rule allowing ingress traffic from 0.0.0.0/0 on the target instances.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You have an application on a general-purpose Compute Engine instance that is e periencing e cessive disk read throttling on its Zonal SSD Persistent Disk. The application primarily reads large files from disk. The disk size is currently 350 GB. You want to provide the ma imum amount of throughput while minimizing costs. What should you do?
+### You have an application on a general-purpose Compute Engine instance that is experiencing excessive disk read throttling on its Zonal SSD Persistent Disk. The application primarily reads large files from disk. The disk size is currently 350 GB. You want to provide the maximum amount of throughput while minimizing costs. What should you do?
 
 - [ ] Increase the size of the disk to 1 TB.
 - [ ] Increase the allocated CPU to the instance.
@@ -1173,10 +1171,10 @@
 
 ### Your Dataproc cluster runs in a single Virtual Private Cloud (VPC) network in a single subnet with range 172.16.20.128/25. There are no private IP addresses available in the VPC network. You want to add new VMs to communicate with your cluster using the minimum number of steps. What should you do?
 
-- [ ] Modify the e isting subnet range to 172.16.20.0/24.
+- [ ] Modify the existing subnet range to 172.16.20.0/24.
 - [ ] Create a new Secondary IP Range in the VPC and configure the VMs to use that range.
 - [ ] Create a new VPC network for the VMs. Enable VPC Peering between the VMs' VPC network and the Dataproc cluster VPC network.
-- [ ] Create a new VPC network for the VMs with a subnet of 172.32.0.0/16. Enable VPC network Peering between the Dataproc VPC network and the VMs VPC network. Configure a custom Route e change.
+- [ ] Create a new VPC network for the VMs with a subnet of 172.32.0.0/16. Enable VPC network Peering between the Dataproc VPC network and the VMs VPC network. Configure a custom Route exchange.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1189,7 +1187,7 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You need to create a copy of a custom Compute Engine Virtual Machine (VM) to facilitate an e pected increase in application traffic due to a business acquisition. What should you do?
+### You need to create a copy of a custom Compute Engine Virtual Machine (VM) to facilitate an expected increase in application traffic due to a business acquisition. What should you do?
 
 - [ ] Create a Compute Engine snapshot of your base VM. Create your images from that snapshot.
 - [ ] Create a Compute Engine snapshot of your base VM. Create your instances from that snapshot.
@@ -1207,12 +1205,12 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### An application generates daily reports in a Compute Engine Virtual Machine (VM). The VM is in the project corp-iot-insights. Your team operates only in the project corp-aggregate-reports and needs a copy of the daily e ports in the bucket corp-aggregate-reports-storage. You want to configure access so that the daily reports from the VM are available in the bucket corp-aggregate-reports-storage and use as few steps as possible while following Google-recommended practices. What should you do?
+### An application generates daily reports in a Compute Engine Virtual Machine (VM). The VM is in the project corp-iot-insights. Your team operates only in the project corp-aggregate-reports and needs a copy of the daily exports in the bucket corp-aggregate-reports-storage. You want to configure access so that the daily reports from the VM are available in the bucket corp-aggregate-reports-storage and use as few steps as possible while following Google-recommended practices. What should you do?
 
 - [ ] Move both projects under the same folder.
 - [ ] Grant the VM Service Account the role Storage Object Creator on corp-aggregate-reports-storage.
 - [ ] Create a Shared VPC network between both projects. Grant the VM Service Account the role Storage Object Creator on corp-iot-insights.
-- [ ] Make corp-aggregate-reports-storage public and create a folder with a pseudo-randomized suffi  name. Share the folder with the IoT team.
+- [ ] Make corp-aggregate-reports-storage public and create a folder with a pseudo-randomized suffix name. Share the folder with the IoT team.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1225,7 +1223,7 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You need to create a Compute Engine instance in a new project that doesn't e ist yet. What should you do?
+### You need to create a Compute Engine instance in a new project that doesn't exist yet. What should you do?
 
 - [ ] Using the Cloud SDK, create a new project, enable the Compute Engine API in that project, and then create the instance specifying your new project.
 - [ ] Enable the Compute Engine API in the Cloud Console, use the Cloud SDK to create the instance, and then use the --project flag to specify a new project.
@@ -1246,9 +1244,9 @@
 ### You are developing a new application and are looking for a Jenkins installation to build and deploy your source code. You want to automate the installation as quickly and easily as possible. What should you do?
 
 - [ ] Deploy Jenkins through the Google Cloud Marketplace.
-- [ ] Create a new Compute Engine instance. Run the Jenkins e ecutable.
+- [ ] Create a new Compute Engine instance. Run the Jenkins executable.
 - [ ] Create a new Kubernetes Engine cluster. Create a deployment for the Jenkins image.
-- [ ] Create an instance template with the Jenkins e ecutable. Create a Managed Instance Group with this template.
+- [ ] Create an instance template with the Jenkins executable. Create a Managed Instance Group with this template.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1261,7 +1259,7 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### The core business of your company is to rent out construction equipment at large scale. All the equipment that is being rented out has been equipped with multiple sensors that send event information every few seconds. These signals can vary from engine status, distance traveled, fuel level, and more. Customers are billed based on the consumption monitored by these sensors. You e pect high throughput - up to thousands of events per hour per device - and need to retrieve consistent data based on the time of the event. Storing and retrieving individual signals should be atomic. What should you do?
+### The core business of your company is to rent out construction equipment at large scale. All the equipment that is being rented out has been equipped with multiple sensors that send event information every few seconds. These signals can vary from engine status, distance traveled, fuel level, and more. Customers are billed based on the consumption monitored by these sensors. You expect high throughput - up to thousands of events per hour per device - and need to retrieve consistent data based on the time of the event. Storing and retrieving individual signals should be atomic. What should you do?
 
 - [ ] Create a file in Cloud Storage per device and append new data to that file.
 - [ ] Create a file in Cloud Filestore per device and append new data to that file.
@@ -1281,8 +1279,8 @@
 
 ### You created several resources in multiple Google Cloud projects. All projects are linked to different billing accounts. To better estimate future charges, you want to have a single visual representation of all costs incurred. You want to include new cost data as soon as possible. What should you do?
 
-- [ ] Configure Billing Data E port to BigQuery and visualize the data in Data Studio.
-- [ ] Visit the Cost Table page to get a CSV e port and visualize it using Data Studio.
+- [ ] Configure Billing Data Export to BigQuery and visualize the data in Data Studio.
+- [ ] Visit the Cost Table page to get a CSV export and visualize it using Data Studio.
 - [ ] Fill all resources in the Pricing Calculator to get an estimate of the monthly cost.
 - [ ] Use the Reports view in the Cloud Billing Console to view the desired cost information.
 
@@ -1311,11 +1309,11 @@
 - [ ] 1. Update your instances' metadata to add the following value: snapshot-schedule: 0 1 * * * 2. Update your instances' metadata to add the following value: snapshot-retention: 30.
 - [ ] 1. In the Cloud Console, go to the Compute Engine Disks page and select your instance's disk. 2. In the Snapshot Schedule section, select Create Schedule and configure the following parameters: Schedule frequency: Daily. Start time: 1:00 AM - 2:00 AM. Autodelete snapshots after: 30 days.
 - [ ] 1. Create a Cloud Function that creates a snapshot of your instance's disk. 2. Create a Cloud Function that deletes snapshots that are older than 30 days. 3. Use Cloud Scheduler to trigger both Cloud Functions daily at 1:00 AM.
-- [ ] 1. Create a bash script in the instance that copies the content of the disk to Cloud Storage. 2. Create a bash script in the instance that deletes data older than 30 days in the backup Cloud Storage bucket. 3. Configure the instance's crontab to e ecute these scripts daily at 1:00 AM.
+- [ ] 1. Create a bash script in the instance that copies the content of the disk to Cloud Storage. 2. Create a bash script in the instance that deletes data older than 30 days in the backup Cloud Storage bucket. 3. Configure the instance's crontab to execute these scripts daily at 1:00 AM.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Your e isting application running in Google Kubernetes Engine (GKE) consists of multiple pods running on four GKE n1-standard-2 nodes. You need to deploy additional pods requiring n2-highmem-16 nodes without any downtime. What should you do?
+### Your existing application running in Google Kubernetes Engine (GKE) consists of multiple pods running on four GKE n1-standard-2 nodes. You need to deploy additional pods requiring n2-highmem-16 nodes without any downtime. What should you do?
 
 - [ ] Use gcloud container clusters upgrade. Deploy the new services.
 - [ ] Create a new Node Pool and specify machine type n2-highmem-16. Deploy the new pods.
@@ -1324,12 +1322,12 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You have an application that uses Cloud Spanner as a database backend to keep current state information about users. Cloud Bigtable logs all events triggered by users. You e port Cloud Spanner data to Cloud Storage during daily backups. One of your analysts asks you to join data from Cloud Spanner and Cloud Bigtable for specific users. You want to complete this ad hoc request as efficiently as possible. What should you do?
+### You have an application that uses Cloud Spanner as a database backend to keep current state information about users. Cloud Bigtable logs all events triggered by users. You export Cloud Spanner data to Cloud Storage during daily backups. One of your analysts asks you to join data from Cloud Spanner and Cloud Bigtable for specific users. You want to complete this ad hoc request as efficiently as possible. What should you do?
 
 - [ ] Create a dataflow job that copies data from Cloud Bigtable and Cloud Storage for specific users.
 - [ ] Create a dataflow job that copies data from Cloud Bigtable and Cloud Spanner for specific users.
-- [ ] Create a Cloud Dataproc cluster that runs a Spark job to e tract data from Cloud Bigtable and Cloud Storage for specific users.
-- [ ] Create two separate BigQuery e ternal tables on Cloud Storage and Cloud Bigtable. Use the BigQuery console to join these tables through user fields, and apply appropriate filters.
+- [ ] Create a Cloud Dataproc cluster that runs a Spark job to extract data from Cloud Bigtable and Cloud Storage for specific users.
+- [ ] Create two separate BigQuery external tables on Cloud Storage and Cloud Bigtable. Use the BigQuery console to join these tables through user fields, and apply appropriate filters.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1345,18 +1343,18 @@
 ### A colleague handed over a Google Cloud Platform project for you to maintain. As part of a security checkup, you want to review who has been granted the Project Owner role. What should you do?
 
 - [ ] In the console, validate which SSH keys have been stored as project-wide keys.
-- [ ] Navigate to Identity-Aware Pro y and check the permissions for these resources.
+- [ ] Navigate to Identity-Aware Proxy and check the permissions for these resources.
 - [ ] Enable Audit Logs on the IAM &amp; admin page for all resources, and validate the results.
 - [ ] Use the command gcloud projects get-iam-policy to view the current role assignments.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You are running multiple VPC-native Google Kubernetes Engine clusters in the same subnet. The IPs available for the nodes are e hausted, and you want to ensure that the clusters can grow in nodes when needed. What should you do?
+### You are running multiple VPC-native Google Kubernetes Engine clusters in the same subnet. The IPs available for the nodes are exhausted, and you want to ensure that the clusters can grow in nodes when needed. What should you do?
 
 - [ ] Create a new subnet in the same region as the subnet being used.
 - [ ] Add an alias IP range to the subnet used by the GKE clusters.
-- [ ] Create a new VPC, and set up VPC peering with the e isting VP.
-- [ ] E pand the CIDR range of the relevant subnet for the cluster.
+- [ ] Create a new VPC, and set up VPC peering with the existing VP.
+- [ ] Expand the CIDR range of the relevant subnet for the cluster.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1378,7 +1376,7 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Your company runs its Linu  workloads on Compute Engine instances. Your company will be working with a new operations partner that does not use Google Accounts. You need to grant access to the instances to your operations partner so they can maintain the installed tooling. What should you do?
+### Your company runs its Linux workloads on Compute Engine instances. Your company will be working with a new operations partner that does not use Google Accounts. You need to grant access to the instances to your operations partner so they can maintain the installed tooling. What should you do?
 
 - [ ] Enable Cloud IAP for the Compute Engine instances, and add the operations partner as a Cloud IAP Tunnel User.
 - [ ] Tag all the instances with the same network tag. Create a firewall rule in the VPC to grant TCP access on port 22 for traffic from the operations partner to instances with the network tag.
@@ -1407,19 +1405,19 @@
 
 ### You are storing sensitive information in a Cloud Storage bucket. For legal reasons, you need to be able to record all requests that read any of the stored data. You want to make sure you comply with these requirements. What should you do?
 
-- [ ] Enable the Identity Aware Pro y API on the project.
+- [ ] Enable the Identity Aware Proxy API on the project.
 - [ ] Scan the bucket using the Data Loss Prevention API.
 - [ ] Allow only a single Service Account access to read the data.
 - [ ] Enable Data Access audit logs for the Cloud Storage API.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You are the team lead of a group of 10 developers. You provided each developer with an individual Google Cloud Project that they can use as their personal sandbo  to e periment with different Google Cloud solutions. You want to be notified if any of the developers are spending above $500 per month on their sandbo  environment. What should you do?
+### You are the team lead of a group of 10 developers. You provided each developer with an individual Google Cloud Project that they can use as their personal sandbox to experiment with different Google Cloud solutions. You want to be notified if any of the developers are spending above $500 per month on their sandbox environment. What should you do?
 
 - [ ] Create a single budget for all projects and configure budget alerts on this budget.
-- [ ] Create a separate billing account per sandbo  project and enable BigQuery billing e ports. Create a Data Studio dashboard to plot the spending per billing account.
+- [ ] Create a separate billing account per sandbox project and enable BigQuery billing exports. Create a Data Studio dashboard to plot the spending per billing account.
 - [ ] Create a budget per project and configure budget alerts on all of these budgets.
-- [ ] Create a single billing account for all sandbo  projects and enable BigQuery billing e ports. Create a Data Studio dashboard to plot the spending per project.
+- [ ] Create a single billing account for all sandbox projects and enable BigQuery billing exports. Create a Data Studio dashboard to plot the spending per project.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1441,12 +1439,12 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You are building an application that processes data files uploaded from thousands of suppliers. Your primary goals for the application are data security and the e piration of aged data. You need to design the application to: Restrict access so that suppliers can access only their own data. Give suppliers write access to data only for 30 minutes. Delete data that is over 45 days old. You have a very short development cycle, and you need to make sure that the application requires minimal maintenance. Which two strategies should you use? (Choose two.)
+### You are building an application that processes data files uploaded from thousands of suppliers. Your primary goals for the application are data security and the expiration of aged data. You need to design the application to: Restrict access so that suppliers can access only their own data. Give suppliers write access to data only for 30 minutes. Delete data that is over 45 days old. You have a very short development cycle, and you need to make sure that the application requires minimal maintenance. Which two strategies should you use? (Choose two.)
 
 - [ ] Build a lifecycle policy to delete Cloud Storage objects after 45 days.
 - [ ] Use signed URLs to allow suppliers limited time access to store their objects.
 - [ ] Set up an SFTP server for your application, and create a separate user for each supplier.
-- [ ] Build a Cloud function that triggers a timer of 45 days to delete objects that have e pired.
+- [ ] Build a Cloud function that triggers a timer of 45 days to delete objects that have expired.
 - [ ] Develop a script that loops through all Cloud Storage buckets and deletes any buckets that are older than 45 days.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1464,7 +1462,7 @@
 
 - [ ] Enable Audit Logs for all APIs that are related to data storage.
 - [ ] Review the IAM permissions for any role that allows for data access.
-- [ ] Review the Identity-Aware Pro y settings for each resource.
+- [ ] Review the Identity-Aware Proxy settings for each resource.
 - [ ] Create a Data Loss Prevention job.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1482,15 +1480,15 @@
 
 - [ ] Deploy the container on Cloud Run for Anthos, and set the minimum number of instances to zero.
 - [ ] Deploy the container on Cloud Run (fully managed), and set the minimum number of instances to zero.
-- [ ] Deploy the container on App Engine fle ible environment with autoscaling, and set the value min_instances to zero in the app.yaml.
-- [ ] Deploy the container on App Engine fle ible environment with manual scaling, and set the value instances to zero in the app.yaml.
+- [ ] Deploy the container on App Engine flexible environment with autoscaling, and set the value min_instances to zero in the app.yaml.
+- [ ] Deploy the container on App Engine flexible environment with manual scaling, and set the value instances to zero in the app.yaml.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You have e perimented with Google Cloud using your own credit card and e pensed the costs to your company. Your company wants to streamline the billing process and charge the costs of your projects to their monthly invoice. What should you do?
+### You have experimented with Google Cloud using your own credit card and expensed the costs to your company. Your company wants to streamline the billing process and charge the costs of your projects to their monthly invoice. What should you do?
 
 - [ ] Grant the financial team the IAM role of Billing Account User on the billing account linked to your credit card.
-- [ ] Set up BigQuery billing e port and grant your financial department IAM access to query the data.
+- [ ] Set up BigQuery billing export and grant your financial department IAM access to query the data.
 - [ ] Create a ticket with Google Billing Support to ask them to send the invoice to your company.
 - [ ] Change the billing account of your projects to the billing account of your company.
 
@@ -1514,12 +1512,12 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Your company developed a mobile game that is deployed on Google Cloud. Gamers are connecting to the game with their personal phones over the Internet. The game sends UDP packets to update the servers about the gamers' actions while they are playing in multiplayer mode. Your game backend can scale over multiple Virtual Machines (VMs), and you want to e pose the VMs over a single IP address. What should you do?
+### Your company developed a mobile game that is deployed on Google Cloud. Gamers are connecting to the game with their personal phones over the Internet. The game sends UDP packets to update the servers about the gamers' actions while they are playing in multiplayer mode. Your game backend can scale over multiple Virtual Machines (VMs), and you want to expose the VMs over a single IP address. What should you do?
 
-- [ ] Configure an SSL Pro y load balancer in front of the application servers.
+- [ ] Configure an SSL Proxy load balancer in front of the application servers.
 - [ ] Configure an Internal UDP load balancer in front of the application servers.
-- [ ] Configure an E ternal HTTP(s) load balancer in front of the application servers.
-- [ ] Configure an E ternal Network load balancer in front of the application servers.
+- [ ] Configure an External HTTP(s) load balancer in front of the application servers.
+- [ ] Configure an External Network load balancer in front of the application servers.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1537,7 +1535,7 @@
 - [ ] Turn on Data Access Logs for the buckets they want to audit, and then build a query in the log viewer that filters on Cloud Storage.
 - [ ] Assign the appropriate permissions, and then create a Data Studio report on Admin Activity Audit Logs.
 - [ ] Assign the appropriate permissions, and the use Cloud Monitoring to review metrics.
-- [ ] Use the e port logs API to provide the Admin Activity Audit Logs in the format they want.
+- [ ] Use the export logs API to provide the Admin Activity Audit Logs in the format they want.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1552,23 +1550,23 @@
 
 ### You are working with a Cloud SQL MySQL database at your company. You need to retain a month-end copy of the database for three years for audit purposes. What should you do?
 
-- [ ] Set up an e port job for the first of the month. Write the e port file to an Archive class Cloud Storage bucket.
+- [ ] Set up an export job for the first of the month. Write the export file to an Archive class Cloud Storage bucket.
 - [ ] Save the automatic first-of-the-month backup for three years. Store the backup file in an Archive class Cloud Storage bucket.
 - [ ] Set up an on-demand backup for the first of the month. Write the backup to an Archive class Cloud Storage bucket.
-- [ ] Convert the automatic first-of-the-month backup to an e port file. Write the e port file to a Coldline class Cloud Storage bucket.
+- [ ] Convert the automatic first-of-the-month backup to an export file. Write the export file to a Coldline class Cloud Storage bucket.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You are monitoring an application and receive user feedback that a specific error is spiking. You notice that the error is caused by a Service Account having insufficient permissions. You are able to solve the problem but want to be notified if the problem recurs. What should you do?
 
 - [ ] In the Log Viewer, filter the logs on severity ˜Error' and the name of the Service Account.
-- [ ] Create a sink to BigQuery to e port all the logs. Create a Data Studio dashboard on the e ported logs.
+- [ ] Create a sink to BigQuery to export all the logs. Create a Data Studio dashboard on the exported logs.
 - [ ] Create a custom log-based metric for the specific error to be used in an Alerting Policy.
 - [ ] Grant Project Owner access to the Service Account.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You are developing a financial trading application that will be used globally. Data is stored and queried using a relational structure, and clients from all over the world should get the e act identical state of the data. The application will be deployed in multiple regions to provide the lowest latency to end users. You need to select a storage option for the application data while minimizing latency. What should you do?
+### You are developing a financial trading application that will be used globally. Data is stored and queried using a relational structure, and clients from all over the world should get the exact identical state of the data. The application will be deployed in multiple regions to provide the lowest latency to end users. You need to select a storage option for the application data while minimizing latency. What should you do?
 
 - [ ] Use Cloud Bigtable for data storage.
 - [ ] Use Cloud SQL for data storage.
