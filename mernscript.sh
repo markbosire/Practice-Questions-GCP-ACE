@@ -102,9 +102,8 @@ gcloud compute instances create mongodb-instance \
     --zone=us-central1-a \
     --machine-type=e2-medium \
     --subnet=mern-subnet \
-    --network-tier=PREMIUM \
-    --image-family=ubuntu-1804-lts \
-    --image-project=ubuntu-os-cloud \
+    --image-family=ubuntu-pro-1804-bionic-v20240924  \
+    --image-project=ubuntu-os-pro-cloud \
     --tags=mongodb \
     --metadata-from-file startup-script=mongodb_startup.sh
 
@@ -285,8 +284,7 @@ gcloud compute instances create mern-instance \
     --zone=us-central1-a \
     --machine-type=e2-medium \
     --subnet=mern-subnet \
-    --network-tier=PREMIUM \
-    --image-family=ubuntu-2204-lts \
+    --image-family=ubuntu-2204-jammy-v20240927  \
     --image-project=ubuntu-os-cloud \
     --tags=http-server,https-server \
     --metadata-from-file startup-script=mern_startup.sh
